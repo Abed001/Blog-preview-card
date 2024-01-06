@@ -6,7 +6,7 @@ import imageavatar from './images/imageavatar.webp'
 function App() {
   return (
     <>
-      <div className='font-Figtree w-[100%] h-screen bg-Yellow flex justify-center items-center'>
+      <main className='font-Figtree w-[100%] h-screen bg-Yellow flex justify-center items-center'>
         <div className='w-full h-full flex justify-center items-center p-10'>
           <div className='border-[1px] border-Black bg-White max-w-[380px] flex flex-col justify-center items-center p-5 rounded-xl cardshadow mb-5 transition duration:300 ease-in-out '>
             <img src={thumbanilImage} className='h-50 w-full rounded-xl' alt="illustration image" />
@@ -22,7 +22,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </>
   )
 }
