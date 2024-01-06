@@ -1,0 +1,8 @@
+
+.cardshadow{
+    box-shadow: 10px 10px rgba(0,0,0);
+  
+}
+.cardshadow:hover {
+    box-shadow: 15px 15px  rgba(0, 0, 0); /* Increase shadow size and opacity on hover */
+  }
